@@ -1,1 +1,1 @@
-A general framework on which the product *Airlock* is built.
+Sixpence is a general framework on which *Airlock* is built.
