@@ -1,0 +1,24 @@
+#include "al_utilities.h"
+#include "al_int.h"
+#include "al_assert.h"
+#include "al_argv.h"
+#include "al_time.h"
+#include "al_id_structures.h"
+
+#ifdef __OBJC__
+
+    #import <Cocoa/Cocoa.h>
+    #import <Availability.h>
+    
+    #import "ALUtilities.h"
+    #import "ALInt.h"
+    #import "ALAssert.h"
+    #import "ALSingleton.h"
+    #import "ALStickyGarbage.h"
+    #import "ALSetTimer.h"
+    #import "NSObject+SuperRetain.h"
+    #import "NSObject+Invocation.h"
+    #import "NSString+GCSafe.h"
+    #import "NSString+GetIntValue.h"
+
+#endif

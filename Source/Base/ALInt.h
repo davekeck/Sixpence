@@ -1,0 +1,8 @@
+#define ALIntValidValueForObject AL_INT_VALID_VALUE_FOR_OBJECT
+#define ALIntMinValueForObject AL_INT_MIN_VALUE_FOR_OBJECT
+#define ALIntMaxValueForObject AL_INT_MAX_VALUE_FOR_OBJECT
+#define ALIntObjectCanBeNegative AL_INT_OBJECT_CAN_BE_NEGATIVE
+#define ALIntGreaterThan AL_INT_GREATER_THAN
+#define ALIntGreaterThanOrEqual AL_INT_GREATER_THAN_OR_EQUAL
+#define ALIntLessThan AL_INT_LESS_THAN
+#define ALIntLessThanOrEqual AL_INT_LESS_THAN_OR_EQUAL
