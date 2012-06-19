@@ -14,7 +14,6 @@
     #import "ALInt.h"
     #import "ALAssert.h"
     #import "ALSingleton.h"
-    #import "ALStickyGarbage.h"
     #import "ALSetTimer.h"
     #import "NSObject+SuperRetain.h"
     #import "NSObject+Invocation.h"

@@ -42,7 +42,6 @@
     #import <Sixpence/ALShieldWindowController.h>
     #import <Sixpence/ALSignalMonitor.h>
     #import <Sixpence/ALSingleton.h>
-    #import <Sixpence/ALStickyGarbage.h>
     #import <Sixpence/ALStyledTextCompositor.h>
     #import <Sixpence/ALSynthesizeCellCommonInit.h>
     #import <Sixpence/ALSynthesizeControlCommonInit.h>

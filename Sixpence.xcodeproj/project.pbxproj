@@ -21,8 +21,6 @@
 		55BE69DE13CAF1AD005830C2 /* ALSetTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE69C713CAF1AD005830C2 /* ALSetTimer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		55BE69E013CAF1AD005830C2 /* ALSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE69C913CAF1AD005830C2 /* ALSingleton.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		55BE69E113CAF1AD005830C2 /* ALSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE69CA13CAF1AD005830C2 /* ALSingleton.m */; };
-		55BE69E213CAF1AD005830C2 /* ALStickyGarbage.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE69CB13CAF1AD005830C2 /* ALStickyGarbage.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		55BE69E313CAF1AD005830C2 /* ALStickyGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE69CC13CAF1AD005830C2 /* ALStickyGarbage.m */; };
 		55BE69E413CAF1AD005830C2 /* ALUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE69CD13CAF1AD005830C2 /* ALUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		55BE69E513CAF1AD005830C2 /* NSObject+Invocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE69CE13CAF1AD005830C2 /* NSObject+Invocation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		55BE69E613CAF1AD005830C2 /* NSObject+Invocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE69CF13CAF1AD005830C2 /* NSObject+Invocation.m */; };
@@ -207,8 +205,6 @@
 		55BE69C713CAF1AD005830C2 /* ALSetTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSetTimer.h; sourceTree = "<group>"; };
 		55BE69C913CAF1AD005830C2 /* ALSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSingleton.h; sourceTree = "<group>"; };
 		55BE69CA13CAF1AD005830C2 /* ALSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSingleton.m; sourceTree = "<group>"; };
-		55BE69CB13CAF1AD005830C2 /* ALStickyGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALStickyGarbage.h; sourceTree = "<group>"; };
-		55BE69CC13CAF1AD005830C2 /* ALStickyGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALStickyGarbage.m; sourceTree = "<group>"; };
 		55BE69CD13CAF1AD005830C2 /* ALUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALUtilities.h; sourceTree = "<group>"; };
 		55BE69CE13CAF1AD005830C2 /* NSObject+Invocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Invocation.h"; sourceTree = "<group>"; };
 		55BE69CF13CAF1AD005830C2 /* NSObject+Invocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Invocation.m"; sourceTree = "<group>"; };
@@ -422,8 +418,6 @@
 				55BE69C713CAF1AD005830C2 /* ALSetTimer.h */,
 				55BE69C913CAF1AD005830C2 /* ALSingleton.h */,
 				55BE69CA13CAF1AD005830C2 /* ALSingleton.m */,
-				55BE69CB13CAF1AD005830C2 /* ALStickyGarbage.h */,
-				55BE69CC13CAF1AD005830C2 /* ALStickyGarbage.m */,
 				55BE69CD13CAF1AD005830C2 /* ALUtilities.h */,
 				55CC1A0013D06D2D004C993D /* ALInt.h */,
 				55BE69CE13CAF1AD005830C2 /* NSObject+Invocation.h */,
@@ -731,7 +725,6 @@
 				55BE69DD13CAF1AD005830C2 /* ALAssert.h in Headers */,
 				55BE69DE13CAF1AD005830C2 /* ALSetTimer.h in Headers */,
 				55BE69E013CAF1AD005830C2 /* ALSingleton.h in Headers */,
-				55BE69E213CAF1AD005830C2 /* ALStickyGarbage.h in Headers */,
 				55BE69E413CAF1AD005830C2 /* ALUtilities.h in Headers */,
 				55BE69E513CAF1AD005830C2 /* NSObject+Invocation.h in Headers */,
 				55BE69E713CAF1AD005830C2 /* NSObject+SuperRetain.h in Headers */,
@@ -871,7 +864,6 @@
 				55BE69D613CAF1AD005830C2 /* al_argv.c in Sources */,
 				55BE69DA13CAF1AD005830C2 /* al_time.c in Sources */,
 				55BE69E113CAF1AD005830C2 /* ALSingleton.m in Sources */,
-				55BE69E313CAF1AD005830C2 /* ALStickyGarbage.m in Sources */,
 				55BE69E613CAF1AD005830C2 /* NSObject+Invocation.m in Sources */,
 				55BE69E813CAF1AD005830C2 /* NSObject+SuperRetain.m in Sources */,
 				55BE69EC13CAF1AD005830C2 /* NSString+GetIntValue.m in Sources */,
