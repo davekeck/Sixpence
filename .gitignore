@@ -3,3 +3,4 @@
 *.pbxuser
 build/
 *.xcuserstate
+xcuserdata

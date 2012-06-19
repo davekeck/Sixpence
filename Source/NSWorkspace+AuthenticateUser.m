@@ -35,8 +35,8 @@
     
     /* Set up our environment */
     
-    usernameData = [username GCSafeUTF8String];
-    passwordData = [password GCSafeUTF8String];
+    usernameData = [username UTF8String];
+    passwordData = [password UTF8String];
     
     authEnvironmentItems[0].name = kAuthorizationEnvironmentUsername;
     authEnvironmentItems[0].value = (void *)usernameData;

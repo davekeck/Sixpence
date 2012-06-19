@@ -28,8 +28,6 @@
 		55BE69E613CAF1AD005830C2 /* NSObject+Invocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE69CF13CAF1AD005830C2 /* NSObject+Invocation.m */; };
 		55BE69E713CAF1AD005830C2 /* NSObject+SuperRetain.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE69D013CAF1AD005830C2 /* NSObject+SuperRetain.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		55BE69E813CAF1AD005830C2 /* NSObject+SuperRetain.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE69D113CAF1AD005830C2 /* NSObject+SuperRetain.m */; };
-		55BE69E913CAF1AD005830C2 /* NSString+GCSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE69D213CAF1AD005830C2 /* NSString+GCSafe.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		55BE69EA13CAF1AD005830C2 /* NSString+GCSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE69D313CAF1AD005830C2 /* NSString+GCSafe.m */; };
 		55BE69EB13CAF1AD005830C2 /* NSString+GetIntValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BE69D413CAF1AD005830C2 /* NSString+GetIntValue.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		55BE69EC13CAF1AD005830C2 /* NSString+GetIntValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BE69D513CAF1AD005830C2 /* NSString+GetIntValue.m */; };
 		55CC19FE13D069E2004C993D /* al_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CC19FD13D069E2004C993D /* al_int.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -216,8 +214,6 @@
 		55BE69CF13CAF1AD005830C2 /* NSObject+Invocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Invocation.m"; sourceTree = "<group>"; };
 		55BE69D013CAF1AD005830C2 /* NSObject+SuperRetain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SuperRetain.h"; sourceTree = "<group>"; };
 		55BE69D113CAF1AD005830C2 /* NSObject+SuperRetain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SuperRetain.m"; sourceTree = "<group>"; };
-		55BE69D213CAF1AD005830C2 /* NSString+GCSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GCSafe.h"; sourceTree = "<group>"; };
-		55BE69D313CAF1AD005830C2 /* NSString+GCSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GCSafe.m"; sourceTree = "<group>"; };
 		55BE69D413CAF1AD005830C2 /* NSString+GetIntValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GetIntValue.h"; sourceTree = "<group>"; };
 		55BE69D513CAF1AD005830C2 /* NSString+GetIntValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GetIntValue.m"; sourceTree = "<group>"; };
 		55CC19FD13D069E2004C993D /* al_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = al_int.h; sourceTree = "<group>"; };
@@ -434,8 +430,6 @@
 				55BE69CF13CAF1AD005830C2 /* NSObject+Invocation.m */,
 				55BE69D013CAF1AD005830C2 /* NSObject+SuperRetain.h */,
 				55BE69D113CAF1AD005830C2 /* NSObject+SuperRetain.m */,
-				55BE69D213CAF1AD005830C2 /* NSString+GCSafe.h */,
-				55BE69D313CAF1AD005830C2 /* NSString+GCSafe.m */,
 				55BE69D413CAF1AD005830C2 /* NSString+GetIntValue.h */,
 				55BE69D513CAF1AD005830C2 /* NSString+GetIntValue.m */,
 			);
@@ -741,7 +735,6 @@
 				55BE69E413CAF1AD005830C2 /* ALUtilities.h in Headers */,
 				55BE69E513CAF1AD005830C2 /* NSObject+Invocation.h in Headers */,
 				55BE69E713CAF1AD005830C2 /* NSObject+SuperRetain.h in Headers */,
-				55BE69E913CAF1AD005830C2 /* NSString+GCSafe.h in Headers */,
 				55BE69EB13CAF1AD005830C2 /* NSString+GetIntValue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -881,7 +874,6 @@
 				55BE69E313CAF1AD005830C2 /* ALStickyGarbage.m in Sources */,
 				55BE69E613CAF1AD005830C2 /* NSObject+Invocation.m in Sources */,
 				55BE69E813CAF1AD005830C2 /* NSObject+SuperRetain.m in Sources */,
-				55BE69EA13CAF1AD005830C2 /* NSString+GCSafe.m in Sources */,
 				55BE69EC13CAF1AD005830C2 /* NSString+GetIntValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

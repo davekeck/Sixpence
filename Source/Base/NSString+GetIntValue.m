@@ -134,56 +134,56 @@ static BOOL NSString_GetIntValue_GetIntValueFromString(const char *string, BOOL 
 - (BOOL)getInt8Value: (int8_t *)outValue
 {
 
-    return NSString_GetIntValue_GetIntValueFromString([self GCSafeUTF8String], YES, sizeof(*outValue), outValue);
+    return NSString_GetIntValue_GetIntValueFromString([self UTF8String], YES, sizeof(*outValue), outValue);
 
 }
 
 - (BOOL)getUInt8Value: (uint8_t *)outValue
 {
 
-    return NSString_GetIntValue_GetIntValueFromString([self GCSafeUTF8String], NO, sizeof(*outValue), outValue);
+    return NSString_GetIntValue_GetIntValueFromString([self UTF8String], NO, sizeof(*outValue), outValue);
 
 }
 
 - (BOOL)getInt16Value: (int16_t *)outValue
 {
 
-    return NSString_GetIntValue_GetIntValueFromString([self GCSafeUTF8String], YES, sizeof(*outValue), outValue);
+    return NSString_GetIntValue_GetIntValueFromString([self UTF8String], YES, sizeof(*outValue), outValue);
 
 }
 
 - (BOOL)getUInt16Value: (uint16_t *)outValue
 {
 
-    return NSString_GetIntValue_GetIntValueFromString([self GCSafeUTF8String], NO, sizeof(*outValue), outValue);
+    return NSString_GetIntValue_GetIntValueFromString([self UTF8String], NO, sizeof(*outValue), outValue);
 
 }
 
 - (BOOL)getInt32Value: (int32_t *)outValue
 {
 
-    return NSString_GetIntValue_GetIntValueFromString([self GCSafeUTF8String], YES, sizeof(*outValue), outValue);
+    return NSString_GetIntValue_GetIntValueFromString([self UTF8String], YES, sizeof(*outValue), outValue);
 
 }
 
 - (BOOL)getUInt32Value: (uint32_t *)outValue
 {
 
-    return NSString_GetIntValue_GetIntValueFromString([self GCSafeUTF8String], NO, sizeof(*outValue), outValue);
+    return NSString_GetIntValue_GetIntValueFromString([self UTF8String], NO, sizeof(*outValue), outValue);
 
 }
 
 - (BOOL)getInt64Value: (int64_t *)outValue
 {
 
-    return NSString_GetIntValue_GetIntValueFromString([self GCSafeUTF8String], YES, sizeof(*outValue), outValue);
+    return NSString_GetIntValue_GetIntValueFromString([self UTF8String], YES, sizeof(*outValue), outValue);
 
 }
 
 - (BOOL)getUInt64Value: (uint64_t *)outValue
 {
 
-    return NSString_GetIntValue_GetIntValueFromString([self GCSafeUTF8String], NO, sizeof(*outValue), outValue);
+    return NSString_GetIntValue_GetIntValueFromString([self UTF8String], NO, sizeof(*outValue), outValue);
 
 }
 

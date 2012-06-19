@@ -54,7 +54,7 @@
     size_t decodedDataLength = 0;
     NSData *result = nil;
     
-    decodedData = al_base64_decode_data([self GCSafeUTF8String], &decodedDataLength);
+    decodedData = al_base64_decode_data([self UTF8String], &decodedDataLength);
     
         /* Verify our output. Note that decodedData == NULL is considered an error, but decodedDataLength == 0 is not. */
         

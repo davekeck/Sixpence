@@ -177,7 +177,7 @@ ALStringConst(ALProcess_ProcessTerminatedNotification);
         ALAssertOrPerform(pathAndArgumentStrings, goto cleanup);
     
     for (i = 0; i < pathAndArgumentStringsCount; i++)
-        pathAndArgumentStrings[i] = [[mPathAndArguments objectAtIndex: i] GCSafeUTF8String];
+        pathAndArgumentStrings[i] = [[mPathAndArguments objectAtIndex: i] UTF8String];
     
     pathAndArgumentStrings[pathAndArgumentStringsCount] = nil;
     
@@ -192,7 +192,7 @@ ALStringConst(ALProcess_ProcessTerminatedNotification);
     for (currentEnvironmentKey in mEnvironment)
     {
     
-        environmentStrings[i] = [[NSString stringWithFormat: @"%@=%@", currentEnvironmentKey, [mEnvironment objectForKey: currentEnvironmentKey]] GCSafeUTF8String];
+        environmentStrings[i] = [[NSString stringWithFormat: @"%@=%@", currentEnvironmentKey, [mEnvironment objectForKey: currentEnvironmentKey]] UTF8String];
         i++;
     
     }
@@ -201,7 +201,7 @@ ALStringConst(ALProcess_ProcessTerminatedNotification);
     
     /* Create the descriptor that will be substituted for any non-valid descriptors in our standard descriptor array. */
     
-    nullDescriptor.descriptor = open([kNullDevicePath GCSafeUTF8String], O_RDWR),
+    nullDescriptor.descriptor = open([kNullDevicePath UTF8String], O_RDWR),
     nullDescriptor.valid = (nullDescriptor.descriptor != -1);
     
         ALAssertOrPerform(nullDescriptor.valid, goto cleanup);

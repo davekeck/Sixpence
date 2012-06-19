@@ -198,7 +198,7 @@ static NSMapTable *ALDistributedLock_Locks = nil;
 //        
 //        ALConfirmOrPerform(descriptor < 0, locked = YES; goto successCleanup);
 //    
-//    pathFileSystemRepresentation = [path GCSafeFileSystemRepresentation];
+//    pathFileSystemRepresentation = [path fileSystemRepresentation];
 //    
 //    /* Open the lock file so we can fcntl() it. */
 //    
@@ -283,7 +283,7 @@ static NSMapTable *ALDistributedLock_Locks = nil;
         NSParameterAssert(outLocked);
         ALAssertOrRaise(!descriptor.valid);
     
-    pathFileSystemRepresentation = [path GCSafeFileSystemRepresentation];
+    pathFileSystemRepresentation = [path fileSystemRepresentation];
     
     /* This operation will both atomically create our lock file and aquire the lock. */
     

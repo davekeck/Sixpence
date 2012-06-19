@@ -24,7 +24,7 @@
     
         NSParameterAssert(userName);
     
-    userInfo = getpwnam([userName GCSafeUTF8String]);
+    userInfo = getpwnam([userName UTF8String]);
     
         ALAssertOrPerform(userInfo, return al_uid_init);
     
@@ -70,7 +70,7 @@
     
         NSParameterAssert(userName);
     
-    userInfo = getpwnam([userName GCSafeUTF8String]);
+    userInfo = getpwnam([userName UTF8String]);
     
         ALAssertOrPerform(userInfo, return al_gid_init);
     
@@ -85,7 +85,7 @@
     
         NSParameterAssert(groupName);
     
-    groupInfo = getgrnam([groupName GCSafeUTF8String]);
+    groupInfo = getgrnam([groupName UTF8String]);
     
         ALAssertOrPerform(groupInfo, return al_gid_init);
     
@@ -122,7 +122,7 @@
     
         NSParameterAssert(userName);
     
-    userInfo = getpwnam([userName GCSafeUTF8String]);
+    userInfo = getpwnam([userName UTF8String]);
     
         ALAssertOrPerform(userInfo, return nil);
     
@@ -161,7 +161,7 @@
 
         NSParameterAssert(userName);
     
-    return (getpwnam([userName GCSafeUTF8String]) != nil);
+    return (getpwnam([userName UTF8String]) != nil);
 
 }
 
@@ -177,7 +177,7 @@
 
         NSParameterAssert(groupName);
     
-    return (getgrnam([groupName GCSafeUTF8String]) != nil);
+    return (getgrnam([groupName UTF8String]) != nil);
 
 }
 

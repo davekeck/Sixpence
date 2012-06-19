@@ -84,7 +84,6 @@
     #import <Sixpence/NSScreen+FurthestScreen.h>
     #import <Sixpence/NSShadow+Creation.h>
     #import <Sixpence/NSString+EscapedStringForUseInURL.h>
-    #import <Sixpence/NSString+GCSafe.h>
     #import <Sixpence/NSString+GetIntValue.h>
     #import <Sixpence/NSString+StringByDeletingCharactersInSet.h>
     #import <Sixpence/NSView+Encapsulate.h>

@@ -18,7 +18,6 @@
     #import "ALSetTimer.h"
     #import "NSObject+SuperRetain.h"
     #import "NSObject+Invocation.h"
-    #import "NSString+GCSafe.h"
     #import "NSString+GetIntValue.h"
 
 #endif
