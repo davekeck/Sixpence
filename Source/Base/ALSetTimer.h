@@ -5,8 +5,15 @@ NS_INLINE void ALSetTimer(NSTimer **oldTimer, NSTimer *newTimer)
         NSCParameterAssert(oldTimer);
         ALConfirmOrPerform(*oldTimer != newTimer, return);
     
-    [newTimer retain];
+    #if !__has_feature(objc_arc)
+        [newTimer retain];
+    #endif
+    
     [*oldTimer invalidate];
-    [*oldTimer release];
+    
+    #if !__has_feature(objc_arc)
+        [*oldTimer release];
+    #endif
+    
     *oldTimer = newTimer;
 }
