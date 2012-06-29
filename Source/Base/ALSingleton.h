@@ -5,7 +5,7 @@
 /* +sharedInstanceForClass: is provided to allow non-ALSingleton-derived classes to implement singleton-like behavior. */
 
 + (id)sharedInstance;
-+ (id)sharedInstanceForClass: (Class)class;
++ (id)sharedInstanceForClass: (Class)cls;
 
 /* ### ALSingleton subclasses must not override -init! You should override -initSingleton instead.
    
